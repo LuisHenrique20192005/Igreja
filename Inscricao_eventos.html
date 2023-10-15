@@ -3,16 +3,85 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Pagamentos</title>   
-    <link href="css_igreja.css" rel="stylesheet" type="text/css">
+    <title>Inscrição Eventos</title>   
+    <link href="css_eventos.css" rel="stylesheet" type="text/css">
+    <script src="script_igreja.js"></script>
 </head>
 <body>
-    <h1>Inscreva-se!</h1>
-    <label>Eventos ativos: (clique em qualquer evento)
-        <p><a href="">Encontro com Deus para mulheres</a></p>
-        <p><a href="Encontro_com_Deus_homens.html">Encontro com Deus para homens</a></p>
-        <p><a href=""Retiro 2024></a></p>
-    </label><br>
-    <p class="obs_pag"><em>Sua inscrição para qualquer um de nossos eventos só é confirmada somente após a apresentação do comprovante de pagamento para um dos responsáveis pelo mesmo!</em></p>
+
+    <nav id="menu-h">
+        <ul id="menu-h">
+            <li><img src="imagens/icone.png" class="icone"></li>
+            <li class="tit_icone">Família Madureira</li>
+            <li><a href="Calendário_eventos.html">Calendário de eventos</a>
+            <li><a href="Inscricao_eventos.html">Eventos</a>
+            <li><a href="História_igreja.html">História da nossa igreja</a>
+        </ul>
+    </nav>
+
+    <br>
+    <br>
+    <h2>Clique em um dos eventos para mais informações</h2>
+    
+    
+    <!-- Primeira aba de eventos -->
+    <button id="botao1" class="botao" onclick="expandirPainel(1)">Inserir nome do evento 1 aqui</button>
+  <div id="painel1" class="painel">
+    <img class="imagem_eventos" src="https://img.freepik.com/fotos-gratis/foto-de-grande-angular-de-uma-unica-arvore-crescendo-sob-um-ceu-nublado-durante-um-por-do-sol-cercado-por-grama_181624-22807.jpg?w=2000">
+    <p>Colocar aqui descrição do evento - Colocar aqui descrição do evento - Colocar aqui descrição do evento - Colocar aqui descrição do evento </p>
+    <p> Colocar aqui descrição do evento - Colocar aqui descrição do evento - Colocar aqui descrição do evento - Colocar aqui descrição do evento - Colocar aqui descrição do evento</p>
+    <br>
+    <p>Valor: R$</p>
+    <br>
+    <p>Caso esteja interessado, preencha o formulário abaixo.</p>
+    
+    <form class="formulario">
+        <label for="nome1" class="nome">Nome:</label>
+        <input type="text" id="nome1" placeholder="Digite seu nome completo">
+        <br>
+        <label for="telefone1" class="telefone">Telefone: </label>
+        <input type="number" id="telefone1" placeholder="Digite seu telefone">
+        <br>
+        <label for="mensagem1" class="mensagem">Mensagem (opcional): </label>
+        <input type="text" id="mensagem1" placeholder="Digite sua mensagem">
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+  </div>
+
+    <br>
+
+    <!-- Primeira aba de eventos -->
+    <button id="botao2" class="botao" onclick="expandirPainel(2)">Inserir nome do evento 2 aqui</button>
+  <div id="painel2" class="painel">
+    <img class="imagem_eventos" src="https://img.freepik.com/fotos-gratis/foto-de-grande-angular-de-uma-unica-arvore-crescendo-sob-um-ceu-nublado-durante-um-por-do-sol-cercado-por-grama_181624-22807.jpg?w=2000">
+    <p>Colocar aqui descrição do evento - Colocar aqui descrição do evento - Colocar aqui descrição do evento - Colocar aqui descrição do evento </p>
+    <p> Colocar aqui descrição do evento - Colocar aqui descrição do evento - Colocar aqui descrição do evento - Colocar aqui descrição do evento - Colocar aqui descrição do evento</p>
+    <br>
+    <p>Valor: R$</p>
+    <br>
+    <p>Caso esteja interessado, preencha o formulário abaixo.</p>
+    
+    <form class="formulario">
+        <label for="nome2" class="nome">Nome:</label>
+        <input type="text" id="nome2" placeholder="Digite seu nome completo">
+        <br>
+        <label for="telefone2" class="telefone">Telefone: </label>
+        <input type="number" id="telefone2" placeholder="Digite seu telefone">
+        <br>
+        <label for="mensagem2" class="mensagem">Mensagem (opcional): </label>
+        <input type="text" id="mensagem2" placeholder="Digite sua mensagem">
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+  </div>
+
+
 </body>
 <html>

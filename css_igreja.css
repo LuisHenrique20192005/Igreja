@@ -1,3 +1,4 @@
+/* Definições Gerais*/
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
@@ -5,13 +6,22 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
-/* Site Igreja */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  
+/* Barra de navegação */
 #menu-h{
+    width: 100%;
     display: flex;
     align-items: center;
 }
 .tit_icone{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 25px;
     color: white;
     margin-left: 10px;
@@ -38,22 +48,33 @@
     text-decoration: none;
     transition: background .3s;
     position: relative;
-    left: 700px;
+    left: 800px;
 }
 #menu-h ul li a:hover{
     color: rgb(24, 139, 233);
 }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+/*Aba principal*/
 .banner_princ{
     margin-top: 50px;
     margin-left: 0px;
-    width: 1630px;
-    height: 650px;
+    width: 100%;
+    height: auto;
 }
 .imagem_trio{
     width: 250px;
     height: 250px;
     margin-top: 100px;
     justify-content: space-around;
+    padding: 50px;
 }
 #principal {
     text-align: center;
@@ -70,9 +91,7 @@ h2 {
 h5{
     color:black;
 }
-p {
-    color:black
-}
+
 li {
     color: black
 }
@@ -140,4 +159,43 @@ td {
     width: 100%;
     height: 20px;
     padding: 5px; 
+}
+
+
+
+
+/* Features */
+.features /*Definições gerais das abas*/ {
+    color: white;
+    background-color: #041434;
+    border-radius: 20px;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 8px 16px #041434;
+}
+
+.titulo_feature /*Título das features*/{
+    font-size: 25px;
+}
+
+.link_feature /*Botão com o link*/{
+    color: #041434;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    width: 70%;
+}
+
+/*Imagem da Oferta/Doação*/
+#imagem_oferta {
+    width: auto;
+    height: 500px;
+    padding: 10px;
+    margin: auto;
+    display:flex;
+    background-color: #041434;
+    border-radius: 10px;
 }

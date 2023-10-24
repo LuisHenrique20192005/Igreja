@@ -5,6 +5,7 @@
 
 *{
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -20,8 +21,8 @@ html, body {
     display: flex;
     align-items: center;
 }
+
 .tit_icone{
-    font-family: 'Poppins', sans-serif;
     font-size: 25px;
     color: white;
     margin-left: 10px;
@@ -39,7 +40,7 @@ html, body {
     
 }
 #menu-h ul li{
-    display: inline;
+    display: inline;;
 }
 #menu-h ul li a{
     color: #FFF;
@@ -48,18 +49,11 @@ html, body {
     text-decoration: none;
     transition: background .3s;
     position: relative;
-    left: 800px;
+    left: 550px;
 }
 #menu-h ul li a:hover{
     color: rgb(24, 139, 233);
 }
-  
-  
-  
-  
-  
-  
-  
   
   
 /*Aba principal*/
@@ -69,13 +63,59 @@ html, body {
     width: 100%;
     height: auto;
 }
-.imagem_trio{
-    width: 250px;
-    height: 250px;
-    margin-top: 100px;
-    justify-content: space-around;
-    padding: 50px;
+
+h2{
+    text-align: center;
 }
+
+#carrossel {
+    display: flex; /* Centraliza verticalmente os elementos */
+  }
+
+.traço_horizontal {
+    border: 1px solid gray;
+    width: 1000px; /* Ajuste a largura como desejado */
+    display: inline;
+    position: absolute;
+    }
+
+.imagem_container{
+    flex: 1;
+}
+
+.imagem_1, .imagem_2 {
+    display: block;
+    width: 260px;
+    height: 260px;
+    border-radius: 10%;
+    margin-left: 10px; /* Ajuste a margem como desejado */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    }
+
+.texto_culto{
+    font-size: 18px;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.qr-code-container {
+    display: inline-block;
+    position: absolute;
+    left: 69%;
+    top: 750px;
+    }
+
+.qr_code{
+    width: 450px;
+    height: 450px;
+    border-radius: 10%;
+}
+
+
 #principal {
     text-align: center;
     background-color:black;

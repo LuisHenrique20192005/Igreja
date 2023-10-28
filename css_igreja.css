@@ -8,7 +8,9 @@
     box-sizing: border-box;
 }
 
+
 html, body {
+    background-color: grey;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -20,6 +22,7 @@ html, body {
     width: 100%;
     display: flex;
     align-items: center;
+    z-index: 2; /*Camada na qual o elemento está*/
 }
 
 .tit_icone{
@@ -83,8 +86,18 @@ h2{
     flex: 1;
 }
 
+.texto_imagem1_container, .texto_imagem2_container{
+    display: flex;
+    width: 60%;
+}
+
+.texto_imagem_cultos{
+    text-align: justify;
+    margin-left: 5%;
+}
+
 .imagem_1, .imagem_2 {
-    display: block;
+    display: block;     
     width: 260px;
     height: 260px;
     border-radius: 10%;

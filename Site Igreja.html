@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="UTF-8"/>
-	<title>Assembléia de Deus Madureira</title>
+    <meta charset="UTF-8" />
+    <title>Assembléia de Deus Madureira</title>
     <link rel="icon" type="image/png" href="imagens\icone.png">
-    <link href="css_igreja.css" rel="stylesheet" type="text/css"/>
+    <link href="css_igreja.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
 
     <!-- Barra superior -->
@@ -20,37 +22,43 @@
         </ul>
     </nav>
 
-        <img src="imagens/banner.png" class="banner_princ">
-        <h2>Programação:</h2>
+    <img src="imagens/banner.png" class="banner_princ">
+    <h2>Programação:</h2>
 
-    
+
 
     <div id="carrossel">
         <div class="traço_horizontal"></div>
-            <div class="imagem_container">
+        <div class="imagem_container">
+            <div class="texto_imagem1_container">
                 <img src="imagens/culto.jpg" class="imagem_1">
-                    <div class="traço_horizontal"></div>
-                <img src="imagens/EBT.jpg" class="imagem_2">
-                <div class="traço_horizontal"></div>
+                <p class="texto_imagem_cultos">Esse é o nosso culto de celebração, realizado todo domingo na Avenida Coronel Victor Dumoncel ao lado do cossinha, venha celebrar conoso!</p>
             </div>
-            <div class="qr-code-container">
-                <p>Se quiser abençoar o andamento desse projeto:</p>
-                <img src="qr code oferta metanóia.png" class="qr_code">
-          </div>
+            <div class="traço_horizontal"></div>
+            <div class="texto_imagem2_container">
+                <img src="imagens/EBT.jpg" class="imagem_2">
+                <p class="texto_imagem_cultos">Esse é o nosso culto de ensino, realizado todas as terças feiras na nossa igreja local, trazendo um estudo aprofundado das escrituras para o desenvolvimento do povo de Deus e formação de futuros líderes para a obra do Senhor</p>
+            </div>
+            <div class="traço_horizontal"></div>
+        </div>
+        <div class="qr-code-container">
+            <p>Se quiser abençoar o andamento desse projeto:</p>
+            <img src="qr code oferta metanóia.png" class="qr_code">
+        </div>
     </div>
 
-    
-    
-    
+
+
+
     <br>
     <br>
     <br>
-    
+
     <script>
-    function expandirPainel(numeroPainel) {
-        var painel = document.getElementById("painel" + numeroPainel);
-        painel.classList.toggle("aberto");
-      }
+        function expandirPainel(numeroPainel) {
+            var painel = document.getElementById("painel" + numeroPainel);
+            painel.classList.toggle("aberto");
+        }
     </script>
 
     <!-- Features -->
@@ -58,20 +66,21 @@
     <!-- Feature Calendário de eventos -->
     <div class="features" id="Calendário_eventos">
         <p class="titulo_feature">Calendário de eventos</p>
-        <p class="texto_feature">Através do calendário, você fica por dentro de todos os próximos eventos que irão ocorrer em nossa instituição.</p>
+        <p class="texto_feature">Através do calendário, você fica por dentro de todos os próximos eventos que irão
+            ocorrer em nossa instituição.</p>
         <br>
         <a class="link_feature" href="Calendário_eventos.html">Clique aqui para acessar o calendário de eventos</a>
         <br>
-        <br>    
+        <br>
     </div>
-    
+
     <br>
     <br>
 
-    
+
     <br>
     <br>
-    
+
     <!-- Feature Inscrição para eventos -->
     <div class="features" id="Inscricao_eventos">
         <p class="titulo_feature">Inscrição para eventos</p>
@@ -82,9 +91,12 @@
 
     <!-- Aba dúvidas -->
     <a class="Duvidas" href="Duvidas.html"><button class="botao">Duvidas</a></button>
-    <em><h5 id="ultima_linha">Versão beta</h5></em>
+    <em>
+        <h5 id="ultima_linha">Versão beta</h5>
+    </em>
 
 </body>
+
 </html>
 
 

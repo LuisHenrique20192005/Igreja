@@ -27,7 +27,9 @@ body{
 .header-icons {
     display: flex;
     align-items: center;
+    padding-top: 40px;
 }
+
 
 #menu {
     font-size: 35px;
@@ -36,7 +38,7 @@ body{
     cursor: pointer;
     position: absolute;
     right: 10px; /* Ajuste esse valor conforme necessário */
-    top: 10px;
+    top: 20px;
 }
 
 .header-icons .bx {
@@ -49,6 +51,7 @@ body{
 .one{
     height: 415px;
     width: 360px;
+    border-radius: 10px;
 }
 
 

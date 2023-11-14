@@ -169,20 +169,7 @@ li {
     font-size: 14px;
 }
 
-/* Inscricao_eventos */
-table{
-    width: 600px;
-    border-collapse:collapse;
-}
-th {
-    border: 1px solid black;
-    color: black;
-}
-td {
-    border: 1px solid black;
-    padding: 18px;
-    color: black;
-}
+
 .obs_pag{
     color: red;
     font-family: arial;

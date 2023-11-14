@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+/* BARRA DE NAVEGAÇÃO */
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+body{
+  background-image: url(fundo_site.avif);
+}
+
+.calendario{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+
+.bloco_calendario{
+  width: 900px;
+  height: 600px;
+  background-color: black;
+  border-radius: 2%;
+}
+
+/* Inscricao_eventos */
+table{
+  width: 600px;
+  border-collapse:collapse;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  top: 20px;
+}
+th {
+  border: 1px solid white;
+  color: white;
+}
+td {
+  border: 1px solid white;
+  padding: 20px;
+  color: white;
+}
+
+
+/* PARTE DA ABA DE EVENTOS */
+
+/* Abas que irão se retrair e expandir */
+
+.painel /*Painel quando está fechado*/{
+  display: none;
+  overflow: hidden;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.painel.aberto /*Painel quando está aberto*/{
+  display: block;
+  padding: 10px;
+}
+
+.botao /*Botão que abre o painel*/{
+  display: block;
+  width: 70%;
+  padding: 10px;
+  color: white;
+  background-color: #041434;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+
+/* Elementos do Formulário - Aba Eventos*/
+
+.formulario input[number], .formulario input[text]{
+  margin-top: 10px;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.formulario input {
+  font-size: 15px;
+  width: 50%;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.formulario input[type="submit"] {
+  color: white;
+  background-color: green;
+  width: 10%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.formulario input[type="reset"] {
+  color: white;
+  background-color: red;
+  width: 10%;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+/* Imagens - Aba Eventos */
+
+.imagem_eventos{
+  width: 400px;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+
+

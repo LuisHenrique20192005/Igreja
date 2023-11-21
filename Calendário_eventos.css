@@ -24,27 +24,40 @@ body{
 .bloco_calendario{
   width: 900px;
   height: 600px;
-  background-color: black;
+  background-color: #031029;
   border-radius: 2%;
 }
 
 /* Inscricao_eventos */
-table{
-  width: 600px;
-  border-collapse:collapse;
-  margin: 0 auto;
+table {
+  width: auto;
+  max-width: 467px;
+  border-collapse: collapse;
+  background-color: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   position: relative;
-  top: 20px;
+  top: 30%;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden; /* Garante que as bordas arredondadas são visíveis mesmo com bordas sólidas */
 }
+
 th {
-  border: 1px solid white;
-  color: white;
+  border: 1px solid black;
+  color: black;
+  background-color: rgb(13, 97, 166);
+  padding: 10px;
 }
 td {
-  border: 1px solid white;
-  padding: 20px;
-  color: white;
+  border: 1px solid black;
+  padding: 15px;
+  color: black;
+}
+
+tr:hover{
+  background-color: rgb(178, 174, 174);
 }
 
 

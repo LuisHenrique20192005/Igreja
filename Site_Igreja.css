@@ -41,13 +41,11 @@ body{
     background-color: rgba(1,22,50,255);
     position: fixed;
     top: 0;
-    left: 0;
     margin: 0;
-    width: 3000px;
     
 }
 #menu-h ul li{
-    display: inline;;
+    display: inline;
 }
 #menu-h ul li a{
     color: #FFF;
